@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCAT Scores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 100%;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .subheader {
+      font-weight: normal;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>MCAT Scores</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">Exam Date</th>
+        <th rowspan="2">MCAT Total<br><span class="subheader">Total Score / Confidence Band</span></th>
+        <th colspan="2">Chemical and Physical Foundations of Biological Systems</th>
+        <th colspan="2">Critical Analysis and Reasoning Skills</th>
+        <th colspan="2">Biological and Biochemical Foundations of Living Systems</th>
+        <th colspan="2">Psychological, Social, and Biological Foundations of Behavior</th>
+      </tr>
+      <tr>
+        <th>Score</th>
+        <th>Percentile Rank</th>
+        <th>Score</th>
+        <th>Percentile Rank</th>
+        <th>Score</th>
+        <th>Percentile Rank</th>
+        <th>Score</th>
+        <th>Percentile Rank</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>06/27/2024</td>
+        <td>515<br><span class="subheader">514 to 516</span></td>
+        <td>128</td>
+        <td>91%</td>
+        <td>130</td>
+        <td>88%</td>
+        <td>127</td>
+        <td>96%</td>
+        <td>130</td>
+        <td>77%</td>
+      </tr>
+      <tr>
+        <td>09/09/2022</td>
+        <td>502<br><span class="subheader">500 to 504</span></td>
+        <td>125</td>
+        <td>55%</td>
+        <td>126</td>
+        <td>57%</td>
+        <td>124</td>
+        <td>73%</td>
+        <td>127</td>
+        <td>43%</td>
+      </tr>
+      <tr>
+        <td>01/20/2022</td>
+        <td>501<br><span class="subheader">499 to 503</span></td>
+        <td>124</td>
+        <td>52%</td>
+        <td>126</td>
+        <td>46%</td>
+        <td>125</td>
+        <td>73%</td>
+        <td>126</td>
+        <td>54%</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
